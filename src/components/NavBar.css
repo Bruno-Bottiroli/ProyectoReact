@@ -1,0 +1,7 @@
+.barra{
+    display: flex;
+    width: 1000px;
+    buttom{
+        margin-left: 1rem;
+    }
+}
