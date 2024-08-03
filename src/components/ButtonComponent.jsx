@@ -1,14 +1,11 @@
-export default function ButtonComponent({nombre, color}){
-    const misestilos = {
-        backgroundColor: color
-    }
-
+export default function ButtonComponent({nombre}){
+    
     const handleClick = () =>{
         alert("estas en la seccion de ${nombre}")
     }
     return(
         <>
-            <button onClick={handleClick} style={misestilos}>{nombre}</button>
+            <button onClick={handleClick}>{nombre}</button>
         </>
     )
 }

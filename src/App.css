@@ -37,7 +37,9 @@
   padding: 2em;
 }
 
-
+*{
+  background-color: rgb(74, 127, 110);
+}
 
 .read-the-docs {
   color: #888;

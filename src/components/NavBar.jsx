@@ -1,16 +1,24 @@
 import ButtonComponent from "./ButtonComponent";
-import ImagenComponente from "./ImagenComponente";
+import CartWidget from "./CartWidget";
 import "./NavBar.css"
 import TituloComponente from "./TituloPrincipal";
 export default function NavBar(){
     return(
         <>
-            <nav className="barra navbar">
-                <ButtonComponent nombre="about us"/>
-                <ButtonComponent nombre="Contacto"/>
-                <TituloComponente texto={"Vivero el Juancho."}/>
-                <TituloComponente texto={"🛒2"}/>
-            </nav>
+             <section className="container-fluid">
+                <div className="row">
+                    <div className="col-12"> 
+                        <nav className="barra navbar">
+                            <TituloComponente texto={"Vivero el Juancho."}/>
+                            <ButtonComponent nombre="Sobre nosotros"/>
+                            <ButtonComponent nombre="Contacto"/>
+                            <ButtonComponent nombre="Productos"/>
+                            <CartWidget/>
+                            <TituloComponente texto={"2"}/>
+                        </nav>
+                    </div>
+                </div>  
+             </section>            
         </>
     )
 }
