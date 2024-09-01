@@ -5,7 +5,7 @@ export default function TipeadoComponent({Greeting}){
     return(
         <>
             <div style={{alignItems: 'center', display: 'flex'}}>
-            <h2 style={{alignItems: 'center', display: 'flex'}}>{Greeting}</h2>
+                <h2 style={{alignItems: 'center', display: 'flex'}}>{Greeting}</h2>
             </div>
             
         </>
