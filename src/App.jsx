@@ -6,7 +6,8 @@ import ContactComponent from './components/contactView/ContactComponent';
 import SobreNosotrosComponent from './components/SobreNosotrosView/SobreNosotrosComponent';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ProductComponent from './components/ProductsView/ProductComponent';
-import SingleProd from './components/SingleProductView/SingleProduct';
+import SingleProd from './components/SingleProductView/ItemDetailContainer';
+import ItemDetailContainer from './components/SingleProductView/ItemDetailContainer';
 function App() {
   const misestilos={
     color:"#111111",
@@ -22,7 +23,7 @@ function App() {
           <Route exact path="/contact" element={<ContactComponent/>} />
           <Route exact path="/SobreNosotros" element={<SobreNosotrosComponent/>} />
           <Route exact path="/Products" element={<ProductComponent/>} />
-          <Route exact path="/Product/:prodId" element={<SingleProd/>} />
+          <Route exact path="/Product/:prodId" element={<ItemDetailContainer/>} />
         </Routes>
       </BrowserRouter>
     </>

@@ -1,5 +1,35 @@
 .cardstyle{
-    img{
+    width: 350px;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    div{
         width: 300px;
     }
+    img{
+        width: 300px;
+        height: 300px; 
+        object-fit: cover;
+    }
+    h2{
+        padding-left: 5px;
+        font-size: 1.6rem;
+    }
+    h3{
+        padding-left: 5px;
+        font-size: 1.3rem;
+    }
+    a{
+        margin-left: 5px;
+        text-decoration: none;
+        color: white;
+    }
+    button{
+        margin: 5px;
+    }
+}
+
+.backgr{
+    background-color: rgb(33, 19, 50);
 }

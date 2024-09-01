@@ -1,8 +1,8 @@
+import "./NavBar.css"
+
 export default function CartWidget(){
 
-
-
     return (
-        <img style={{width:150}}  src="/carrito.png" alt=""/>
+        <img className="carrito"  src="/carrito.png" alt=""/>
     )
 }

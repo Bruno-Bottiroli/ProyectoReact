@@ -8,14 +8,15 @@ export default function NavBar(){
     return(
         <>
         <header>
-            <section className="container-fluid">
-                    <div className="row">
+            <section className="">
+                <div>
+                <div className="">
                         <div className="col-12"> 
                             <nav className="barra navbar">
-                                <div className="col-1">
+                                <div className="col-2">
                                     <LogoComponent/>
                                 </div>
-                                <div className="col-6 flex-start">
+                                <div className="col-6 d-flex justify-content-around">
                                     <button>
                                         <Link to={'/'}>Home</Link>
                                     </button>
@@ -29,15 +30,15 @@ export default function NavBar(){
                                         <Link to={'/contact'}>Contact</Link>
                                     </button>
                                 </div>
-                                <div className="col-1 flex-start">
+                                <div className="col-2 flex-start">
                                     <CartWidget/>
                                 </div>
-                                <div className="col-1">
-
-                                </div>
+                                
                             </nav>
                         </div>
                     </div>  
+                </div>
+                    
              </section>            
         </header>
              

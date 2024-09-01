@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getProduct } from '../../item.js';
 
-export default function SingleProd() {
+export default function ItemDetailContainer() {
   const [product, setProduct] = useState({});
   const { prodId } = useParams();
 

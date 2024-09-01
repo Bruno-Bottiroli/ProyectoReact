@@ -3,6 +3,7 @@ import { getProducts } from '../../item.js';
 import { useEffect, useState } from 'react';
 import ProductsCard from './ProductCard';
 
+
 export default function ProductComponent() {
   const [products, setProducts] = useState([]);
 
@@ -12,9 +13,9 @@ export default function ProductComponent() {
 
   return (
     <>
-      <h2>Vista de Products</h2>
-      <section className='col-12'>
-        <div className='col-3 pe-3'>
+      
+      <section className='container'>
+        <div className='col-4 pt-3 d-flex justify-content-between'>
             <button>
                 Naturaleza
             </button>
@@ -26,15 +27,19 @@ export default function ProductComponent() {
             </button>
         </div>
       </section>
-      <section className="row justify-content-between">
+      <section className="container">
+        <section className='row justify-content-center'>
         {products.map((prod) => (
           <ProductsCard
+          key={prod.id}
             title={prod.title}
             price={prod.price}
             image={prod.image}
             idProd={prod.id}
           />
         ))}
+        </section>
+        
       </section>
     </>
   );
