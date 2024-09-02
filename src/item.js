@@ -5,7 +5,8 @@ const products = [
     price: 1500,
     stock: 8,
     category: "arquitectura",
-    image: "public/Imagenes/catedral.JPG"
+    image: "public/Imagenes/catedral.JPG",
+    imageitem: "../../public/Imagenes/catedral.JPG"
   },
   {
     id: 1,
@@ -13,7 +14,8 @@ const products = [
     price: 3300,
     stock: 9,
     category: "arquitectura",
-    image: "public/Imagenes/estiloaleman.JPG"
+    image: "public/Imagenes/estiloaleman.JPG",
+    imageitem: "../../public/Imagenes/estiloaleman.JPG"
   },
   {
     id: 2,
@@ -21,7 +23,8 @@ const products = [
     price: 1500,
     stock: 9,
     category: "arquitectura",
-    image: "public/Imagenes/fuente.JPG"
+    image: "public/Imagenes/fuente.JPG",
+    imageitem: "../../public/Imagenes/fuente.JPG"
   },
   {
     id: 3,
@@ -29,7 +32,8 @@ const products = [
     price: 1600,
     stock: 3,
     category: "arquitectura",
-    image: "public/Imagenes/grafitti.JPG"
+    image: "public/Imagenes/grafitti.JPG",
+    imageitem: "../../public/Imagenes/grafitti.JPG"
   },
   {
     id: 4,
@@ -37,7 +41,8 @@ const products = [
     price: 4500,
     stock: 2,
     category: "arquitectura",
-    image: "public/Imagenes/molino.JPG"
+    image: "public/Imagenes/molino.JPG",
+    imageitem: "../../public/Imagenes/molino.JPG"
   },
   {
     id: 5,
@@ -45,7 +50,8 @@ const products = [
     price: 900,
     stock: 6,
     category: "naturaleza",
-    image: "public/Imagenes/aguilucho.JPG"
+    image: "public/Imagenes/aguilucho.JPG",
+    imageitem: "../../public/Imagenes/aguilucho.JPG"
   },
   {
     id: 6,
@@ -53,7 +59,8 @@ const products = [
     price: 800,
     stock: 1,
     category: "naturaleza",
-    image: "public/Imagenes/buho.jpg"
+    image: "public/Imagenes/buho.jpg",
+    imageitem: "../../public/Imagenes/buho.jpg"
   },
   {
     id: 7,
@@ -61,7 +68,8 @@ const products = [
     price: 3000,
     stock: 4,
     category: "naturaleza",
-    image: "public/Imagenes/flores.jpg"
+    image: "public/Imagenes/flores.jpg",
+    imageitem: "../../public/Imagenes/flores.jpg"
   },
   {
     id: 8,
@@ -69,7 +77,8 @@ const products = [
     price: 7000,
     stock: 1,
     category: "arquitectura",
-    image: "public/Imagenes/verde.JPG"
+    image: "public/Imagenes/verde.JPG",
+    imageitem: "../../public/Imagenes/verde.JPG"
   },
   {
     id: 9,
@@ -77,7 +86,8 @@ const products = [
     price: 3400,
     stock: 2,
     category: "Collage",
-    image: "public/Imagenes/finalizadocollage.png"
+    image: "public/Imagenes/finalizadocollage.png",
+    imageitem: "../../public/Imagenes/finalizadocollage.png"
   },
   {
     id: 10,
@@ -85,7 +95,8 @@ const products = [
     price: 3500,
     stock: 1,
     category: "Collage",
-    image: "public/Imagenes/closet.png"
+    image: "public/Imagenes/closet.png",
+    imageitem: "../../public/Imagenes/closet.png"
   },
   {
     id: 11,
@@ -93,7 +104,8 @@ const products = [
     price: 2800,
     stock: 2,
     category: "Collage",
-    image: "public/Imagenes/closet 2.png"
+    image: "public/Imagenes/closet 2.png",
+    imageitem: "../../public/Imagenes/closet 2.png"
   },
 ]
 
