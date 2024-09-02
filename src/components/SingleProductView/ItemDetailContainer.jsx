@@ -17,7 +17,7 @@ export default function ItemDetailContainer() {
       <section className='row'>
           <div className='col-12 d-flex justify-content-space'>
               <div className="col-4">
-                  <img className='imgdetail' src= {product.imageitem} alt={product.title} />
+                  <img className='imgdetail' src= {product.image} alt={product.title} />
               </div>
               <div className='col-4 backgroundcard'>
                   <div className='col-12 mb-2'>
