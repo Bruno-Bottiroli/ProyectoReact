@@ -5,7 +5,7 @@ const products = [
     price: 1500,
     stock: 8,
     category: "arquitectura",
-    image: "public/Imagenes/catedral.JPG",
+    image: "/Imagenes/catedral.JPG",
     imageitem: "../../public/Imagenes/catedral.JPG"
   },
   {
