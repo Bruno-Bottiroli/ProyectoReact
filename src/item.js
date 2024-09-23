@@ -107,6 +107,51 @@ const products = [
     image: "/Imagenes/closet 2.png",
     imageitem: "../../public/Imagenes/closet 2.png"
   },
+  {
+    id: 12,
+    title: "Desviados",
+    price: 2800,
+    stock: 2,
+    category: "Collage",
+    image: "/Imagenes/desviados4.png",
+    imageitem: "../../public/Imagenes/desviados4.png"
+  },
+  {
+    id: 13,
+    title: "Sensibilidad",
+    price: 2800,
+    stock: 2,
+    category: "Collage",
+    image: "/Imagenes/sensi.png",
+    imageitem: "../../public/Imagenes/.png"
+  },
+  {
+    id: 14,
+    title: "Proteger",
+    price: 2800,
+    stock: 2,
+    category: "Collage",
+    image: "/Imagenes/gestofinal.png",
+    imageitem: "../../public/Imagenes/closet 2.png"
+  },
+  {
+    id: 15,
+    title: "Presencias",
+    price: 2800,
+    stock: 2,
+    category: "Collage",
+    image: "/Imagenes/seul4.png",
+    imageitem: "../../public/Imagenes/closet 2.png"
+  },
+  {
+    id: 15,
+    title: "Transliteral",
+    price: 2800,
+    stock: 2,
+    category: "Collage",
+    image: "/Imagenes/transli.png",
+    imageitem: "../../public/Imagenes/closet 2.png"
+  },
 ]
 
 export const getProducts = new Promise((resolve) => {
