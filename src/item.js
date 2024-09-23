@@ -144,7 +144,7 @@ const products = [
     imageitem: "../../public/Imagenes/closet 2.png"
   },
   {
-    id: 15,
+    id: 16,
     title: "Transliteral",
     price: 2800,
     stock: 2,
