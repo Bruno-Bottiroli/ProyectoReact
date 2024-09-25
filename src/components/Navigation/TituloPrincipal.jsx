@@ -1,5 +1,5 @@
 
-/* eslint-disable react/prop-types */
+
 export default function TituloComponente({texto}){
     return(
         <>

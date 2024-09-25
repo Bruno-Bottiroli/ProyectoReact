@@ -1,5 +1,4 @@
 import ItemsListContainer from "../ProductsView/ItemsListContainer";
-import ProductsCard from "../ProductsView/ProductCard";
 import "../../App.css"
 import "./HomeComponent.css"
 

@@ -25,5 +25,11 @@ img{
 }
 
 .carrito{
-    width: 100px;
+    width: 90px;
+    align-self: center;
+}
+
+.cartnumber{
+    font-size: 1rem;
+    color: white;
 }

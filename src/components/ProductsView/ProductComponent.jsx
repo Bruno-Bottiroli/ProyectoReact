@@ -1,8 +1,7 @@
-
-import { getProducts } from '../../item.js';
+import { Link } from 'react-router-dom';
+import ProductList from '../ProductList.jsx';
 import { useEffect, useState } from 'react';
-import ProductsCard from './ProductCard';
-
+import { getProducts } from '../../item.js';
 
 export default function ProductComponent() {
   const [products, setProducts] = useState([]);
@@ -13,33 +12,30 @@ export default function ProductComponent() {
 
   return (
     <>
-      
       <section className='container'>
         <div className='col-4 pt-3 d-flex justify-content-between'>
+          <Link to="/category/naturaleza">
             <button>
-                Naturaleza
+              Naturaleza
             </button>
+          </Link>
+          <Link to="/category/arquitectura">
             <button>
-                Arquitectura
+              Arquitectura
             </button>
+          </Link>
+          <Link to="/category/collages">
             <button>
-                Collages     
+              Collages     
             </button>
+          </Link>
         </div>
       </section>
+
       <section className="container">
         <section className='row justify-content-center'>
-        {products.map((prod) => (
-          <ProductsCard
-          key={prod.id}
-            title={prod.title}
-            price={prod.price}
-            image={prod.image}
-            idProd={prod.id}
-          />
-        ))}
+          <ProductList products={products} />
         </section>
-        
       </section>
     </>
   );

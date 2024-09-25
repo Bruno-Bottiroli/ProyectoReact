@@ -21,3 +21,18 @@ h4{
     padding: 5px;
     color: white;
 }
+span{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+#agregarcarro{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+#cantidad{
+    margin-left: 10px;
+}
