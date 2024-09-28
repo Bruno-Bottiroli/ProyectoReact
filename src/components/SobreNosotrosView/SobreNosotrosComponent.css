@@ -1,0 +1,16 @@
+.imagenmonologo{
+    width: 600px;
+    border-radius: 15px;
+}
+
+.nombremarca{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: start;
+    font-size: 3rem;
+}
+
+.texto-marca{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: start;
+    font-size: 1.6rem;
+}
