@@ -1,6 +1,7 @@
 import ItemsListContainer from "../ProductsView/ItemsListContainer";
 import "../../App.css"
 import "./HomeComponent.css"
+import { Link } from "react-router-dom";
 
 export default function HomeComponent() {
     return (
@@ -23,6 +24,7 @@ export default function HomeComponent() {
                       <div className="col-12 trespalos image-container">
                         <img className="w-100 trespalos" src="/imagenes/trespalos.jpg" alt="" />
                         <div className="overlay2">
+                          <Link to={'/Products'}>Productos</Link>
                           <a href="/SobreNosotros" className="overlay-text">Sobre nosotros</a>
                         </div>
                       </div>

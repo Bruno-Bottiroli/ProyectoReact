@@ -14,7 +14,7 @@ export default function CartView() {
       <h2>Resumen del Carrito</h2>
       <ul>
         {cart.map((item) => (
-          <div className="row" key={item.id}> 
+          <div className="row d-flex" key={item.id}> 
             <li className="d-flex col-6 mb-3">
               <div className="col-6">
                 <img className="imagen" src={item.image} alt={item.title} />
