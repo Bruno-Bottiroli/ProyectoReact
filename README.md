@@ -4,12 +4,11 @@ Este proyecto es una aplicación de e-commerce construida con **React** que perm
 
 ## Tecnologías Utilizadas
 
-- **React**: Framework principal para la construcción de la interfaz de usuario.
-- **React Router**: Librería para manejar rutas y navegación entre diferentes vistas de la aplicación.
-- **Firebase Firestore**: Base de datos NoSQL utilizada para almacenar los productos y recuperar datos de forma dinámica.
-- **Firebase Hosting**: Servicio utilizado para el despliegue y hosting de la aplicación.
-- **Context API**: Utilizado para manejar el estado global del carrito de compras y compartirlo entre diferentes componentes.
-- **Bootstrap**: Librería de estilos CSS utilizada para el diseño y la disposición de los componentes.
+- **React**: Framework principal para la construcción de la interfaz de usuario. **^18.3.1**
+- **React Router Dom**: Librería para manejar rutas y navegación entre diferentes vistas de la aplicación. **^6.26.1**
+- **Firebase Firestore**: Base de datos NoSQL utilizada para almacenar los productos y recuperar datos de forma dinámica. **^10.13.1**
+- **Firebase Hosting**: Servicio utilizado para el despliegue y hosting de la aplicación. **^10.13.1**
+- **Bootstrap**: Librería de estilos CSS utilizada para el diseño y la disposición de los componentes. **^5.3.3**
 
 ## Funcionalidades Principales
 
@@ -28,8 +27,6 @@ Este proyecto es una aplicación de e-commerce construida con **React** que perm
 4. **Operaciones en el Carrito**:
    - Incrementar o decrementar la cantidad de un producto desde la vista de detalles del producto.
    - Validación para evitar que se agreguen más productos de los disponibles en el stock.
-   
-5. **Filtrado por Categorías**:
-   - Los usuarios pueden filtrar los productos por las tres categorías mencionadas, y la consulta de productos es dinámica desde Firebase.
 
-## Estructura del Proyecto
+
+
